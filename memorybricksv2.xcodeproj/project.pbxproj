@@ -14,6 +14,8 @@
 		5B68F1E22C9560EC006FA81F /* memorybricksv2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B68F1E12C9560EC006FA81F /* memorybricksv2Tests.swift */; };
 		5B68F1EC2C9560EC006FA81F /* memorybricksv2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B68F1EB2C9560EC006FA81F /* memorybricksv2UITests.swift */; };
 		5B68F1EE2C9560EC006FA81F /* memorybricksv2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B68F1ED2C9560EC006FA81F /* memorybricksv2UITestsLaunchTests.swift */; };
+		5B68F1FC2C956171006FA81F /* CustomARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B68F1FB2C956171006FA81F /* CustomARView.swift */; };
+		5B68F1FE2C9562BE006FA81F /* CustomARViewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B68F1FD2C9562BE006FA81F /* CustomARViewRepresentable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		5B68F1E72C9560EC006FA81F /* memorybricksv2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = memorybricksv2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B68F1EB2C9560EC006FA81F /* memorybricksv2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = memorybricksv2UITests.swift; sourceTree = "<group>"; };
 		5B68F1ED2C9560EC006FA81F /* memorybricksv2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = memorybricksv2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5B68F1FB2C956171006FA81F /* CustomARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomARView.swift; sourceTree = "<group>"; };
+		5B68F1FD2C9562BE006FA81F /* CustomARViewRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomARViewRepresentable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +98,8 @@
 		5B68F1CF2C9560EA006FA81F /* memorybricksv2 */ = {
 			isa = PBXGroup;
 			children = (
+				5B68F1FA2C956134006FA81F /* Feature Targets */,
 				5B68F1D02C9560EA006FA81F /* memorybricksv2App.swift */,
-				5B68F1D22C9560EA006FA81F /* ContentView.swift */,
 				5B68F1D42C9560EC006FA81F /* Assets.xcassets */,
 				5B68F1D62C9560EC006FA81F /* Preview Content */,
 			);
@@ -125,6 +129,16 @@
 				5B68F1ED2C9560EC006FA81F /* memorybricksv2UITestsLaunchTests.swift */,
 			);
 			path = memorybricksv2UITests;
+			sourceTree = "<group>";
+		};
+		5B68F1FA2C956134006FA81F /* Feature Targets */ = {
+			isa = PBXGroup;
+			children = (
+				5B68F1FB2C956171006FA81F /* CustomARView.swift */,
+				5B68F1FD2C9562BE006FA81F /* CustomARViewRepresentable.swift */,
+				5B68F1D22C9560EA006FA81F /* ContentView.swift */,
+			);
+			path = "Feature Targets";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,7 +272,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B68F1D32C9560EA006FA81F /* ContentView.swift in Sources */,
+				5B68F1FC2C956171006FA81F /* CustomARView.swift in Sources */,
 				5B68F1D12C9560EA006FA81F /* memorybricksv2App.swift in Sources */,
+				5B68F1FE2C9562BE006FA81F /* CustomARViewRepresentable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,6 +441,7 @@
 				DEVELOPMENT_TEAM = N5Q323ZXD4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Needed to show AR view";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -454,6 +471,7 @@
 				DEVELOPMENT_TEAM = N5Q323ZXD4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Needed to show AR view";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
