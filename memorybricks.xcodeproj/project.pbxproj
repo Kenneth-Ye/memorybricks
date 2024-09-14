@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5B68F1D12C9560EA006FA81F /* memorybricksv2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B68F1D02C9560EA006FA81F /* memorybricksv2App.swift */; };
+		5B68F1D12C9560EA006FA81F /* memorybricksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B68F1D02C9560EA006FA81F /* memorybricksApp.swift */; };
 		5B68F1D32C9560EA006FA81F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B68F1D22C9560EA006FA81F /* ContentView.swift */; };
 		5B68F1D52C9560EC006FA81F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B68F1D42C9560EC006FA81F /* Assets.xcassets */; };
 		5B68F1D82C9560EC006FA81F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B68F1D72C9560EC006FA81F /* Preview Assets.xcassets */; };
-		5B68F1E22C9560EC006FA81F /* memorybricksv2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B68F1E12C9560EC006FA81F /* memorybricksv2Tests.swift */; };
-		5B68F1EC2C9560EC006FA81F /* memorybricksv2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B68F1EB2C9560EC006FA81F /* memorybricksv2UITests.swift */; };
-		5B68F1EE2C9560EC006FA81F /* memorybricksv2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B68F1ED2C9560EC006FA81F /* memorybricksv2UITestsLaunchTests.swift */; };
+		5B68F1E22C9560EC006FA81F /* memorybricksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B68F1E12C9560EC006FA81F /* memorybricksTests.swift */; };
+		5B68F1EC2C9560EC006FA81F /* memorybricksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B68F1EB2C9560EC006FA81F /* memorybricksUITests.swift */; };
+		5B68F1EE2C9560EC006FA81F /* memorybricksUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B68F1ED2C9560EC006FA81F /* memorybricksUITestsLaunchTests.swift */; };
 		5B68F1FC2C956171006FA81F /* CustomARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B68F1FB2C956171006FA81F /* CustomARView.swift */; };
 		5B68F1FE2C9562BE006FA81F /* CustomARViewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B68F1FD2C9562BE006FA81F /* CustomARViewRepresentable.swift */; };
 /* End PBXBuildFile section */
@@ -36,16 +36,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5B68F1CD2C9560EA006FA81F /* memorybricksv2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = memorybricksv2.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		5B68F1D02C9560EA006FA81F /* memorybricksv2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = memorybricksv2App.swift; sourceTree = "<group>"; };
+		5B68F1CD2C9560EA006FA81F /* memorybricks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = memorybricks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B68F1D02C9560EA006FA81F /* memorybricksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = memorybricksApp.swift; sourceTree = "<group>"; };
 		5B68F1D22C9560EA006FA81F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5B68F1D42C9560EC006FA81F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5B68F1D72C9560EC006FA81F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		5B68F1DD2C9560EC006FA81F /* memorybricksv2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = memorybricksv2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5B68F1E12C9560EC006FA81F /* memorybricksv2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = memorybricksv2Tests.swift; sourceTree = "<group>"; };
-		5B68F1E72C9560EC006FA81F /* memorybricksv2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = memorybricksv2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5B68F1EB2C9560EC006FA81F /* memorybricksv2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = memorybricksv2UITests.swift; sourceTree = "<group>"; };
-		5B68F1ED2C9560EC006FA81F /* memorybricksv2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = memorybricksv2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5B68F1DD2C9560EC006FA81F /* memorybricksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = memorybricksTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B68F1E12C9560EC006FA81F /* memorybricksTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = memorybricksTests.swift; sourceTree = "<group>"; };
+		5B68F1E72C9560EC006FA81F /* memorybricksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = memorybricksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B68F1EB2C9560EC006FA81F /* memorybricksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = memorybricksUITests.swift; sourceTree = "<group>"; };
+		5B68F1ED2C9560EC006FA81F /* memorybricksUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = memorybricksUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		5B68F1FB2C956171006FA81F /* CustomARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomARView.swift; sourceTree = "<group>"; };
 		5B68F1FD2C9562BE006FA81F /* CustomARViewRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomARViewRepresentable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -78,9 +78,9 @@
 		5B68F1C42C9560EA006FA81F = {
 			isa = PBXGroup;
 			children = (
-				5B68F1CF2C9560EA006FA81F /* memorybricksv2 */,
-				5B68F1E02C9560EC006FA81F /* memorybricksv2Tests */,
-				5B68F1EA2C9560EC006FA81F /* memorybricksv2UITests */,
+				5B68F1CF2C9560EA006FA81F /* memorybricks */,
+				5B68F1E02C9560EC006FA81F /* memorybricksTests */,
+				5B68F1EA2C9560EC006FA81F /* memorybricksUITests */,
 				5B68F1CE2C9560EA006FA81F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -88,22 +88,22 @@
 		5B68F1CE2C9560EA006FA81F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5B68F1CD2C9560EA006FA81F /* memorybricksv2.app */,
-				5B68F1DD2C9560EC006FA81F /* memorybricksv2Tests.xctest */,
-				5B68F1E72C9560EC006FA81F /* memorybricksv2UITests.xctest */,
+				5B68F1CD2C9560EA006FA81F /* memorybricks.app */,
+				5B68F1DD2C9560EC006FA81F /* memorybricksTests.xctest */,
+				5B68F1E72C9560EC006FA81F /* memorybricksUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5B68F1CF2C9560EA006FA81F /* memorybricksv2 */ = {
+		5B68F1CF2C9560EA006FA81F /* memorybricks */ = {
 			isa = PBXGroup;
 			children = (
 				5B68F1FA2C956134006FA81F /* Feature Targets */,
-				5B68F1D02C9560EA006FA81F /* memorybricksv2App.swift */,
+				5B68F1D02C9560EA006FA81F /* memorybricksApp.swift */,
 				5B68F1D42C9560EC006FA81F /* Assets.xcassets */,
 				5B68F1D62C9560EC006FA81F /* Preview Content */,
 			);
-			path = memorybricksv2;
+			path = memorybricks;
 			sourceTree = "<group>";
 		};
 		5B68F1D62C9560EC006FA81F /* Preview Content */ = {
@@ -114,21 +114,21 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		5B68F1E02C9560EC006FA81F /* memorybricksv2Tests */ = {
+		5B68F1E02C9560EC006FA81F /* memorybricksTests */ = {
 			isa = PBXGroup;
 			children = (
-				5B68F1E12C9560EC006FA81F /* memorybricksv2Tests.swift */,
+				5B68F1E12C9560EC006FA81F /* memorybricksTests.swift */,
 			);
-			path = memorybricksv2Tests;
+			path = memorybricksTests;
 			sourceTree = "<group>";
 		};
-		5B68F1EA2C9560EC006FA81F /* memorybricksv2UITests */ = {
+		5B68F1EA2C9560EC006FA81F /* memorybricksUITests */ = {
 			isa = PBXGroup;
 			children = (
-				5B68F1EB2C9560EC006FA81F /* memorybricksv2UITests.swift */,
-				5B68F1ED2C9560EC006FA81F /* memorybricksv2UITestsLaunchTests.swift */,
+				5B68F1EB2C9560EC006FA81F /* memorybricksUITests.swift */,
+				5B68F1ED2C9560EC006FA81F /* memorybricksUITestsLaunchTests.swift */,
 			);
-			path = memorybricksv2UITests;
+			path = memorybricksUITests;
 			sourceTree = "<group>";
 		};
 		5B68F1FA2C956134006FA81F /* Feature Targets */ = {
@@ -144,9 +144,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5B68F1CC2C9560EA006FA81F /* memorybricksv2 */ = {
+		5B68F1CC2C9560EA006FA81F /* memorybricks */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5B68F1F12C9560EC006FA81F /* Build configuration list for PBXNativeTarget "memorybricksv2" */;
+			buildConfigurationList = 5B68F1F12C9560EC006FA81F /* Build configuration list for PBXNativeTarget "memorybricks" */;
 			buildPhases = (
 				5B68F1C92C9560EA006FA81F /* Sources */,
 				5B68F1CA2C9560EA006FA81F /* Frameworks */,
@@ -156,14 +156,14 @@
 			);
 			dependencies = (
 			);
-			name = memorybricksv2;
+			name = memorybricks;
 			productName = memorybricksv2;
-			productReference = 5B68F1CD2C9560EA006FA81F /* memorybricksv2.app */;
+			productReference = 5B68F1CD2C9560EA006FA81F /* memorybricks.app */;
 			productType = "com.apple.product-type.application";
 		};
-		5B68F1DC2C9560EC006FA81F /* memorybricksv2Tests */ = {
+		5B68F1DC2C9560EC006FA81F /* memorybricksTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5B68F1F42C9560EC006FA81F /* Build configuration list for PBXNativeTarget "memorybricksv2Tests" */;
+			buildConfigurationList = 5B68F1F42C9560EC006FA81F /* Build configuration list for PBXNativeTarget "memorybricksTests" */;
 			buildPhases = (
 				5B68F1D92C9560EC006FA81F /* Sources */,
 				5B68F1DA2C9560EC006FA81F /* Frameworks */,
@@ -174,14 +174,14 @@
 			dependencies = (
 				5B68F1DF2C9560EC006FA81F /* PBXTargetDependency */,
 			);
-			name = memorybricksv2Tests;
+			name = memorybricksTests;
 			productName = memorybricksv2Tests;
-			productReference = 5B68F1DD2C9560EC006FA81F /* memorybricksv2Tests.xctest */;
+			productReference = 5B68F1DD2C9560EC006FA81F /* memorybricksTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		5B68F1E62C9560EC006FA81F /* memorybricksv2UITests */ = {
+		5B68F1E62C9560EC006FA81F /* memorybricksUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5B68F1F72C9560EC006FA81F /* Build configuration list for PBXNativeTarget "memorybricksv2UITests" */;
+			buildConfigurationList = 5B68F1F72C9560EC006FA81F /* Build configuration list for PBXNativeTarget "memorybricksUITests" */;
 			buildPhases = (
 				5B68F1E32C9560EC006FA81F /* Sources */,
 				5B68F1E42C9560EC006FA81F /* Frameworks */,
@@ -192,9 +192,9 @@
 			dependencies = (
 				5B68F1E92C9560EC006FA81F /* PBXTargetDependency */,
 			);
-			name = memorybricksv2UITests;
+			name = memorybricksUITests;
 			productName = memorybricksv2UITests;
-			productReference = 5B68F1E72C9560EC006FA81F /* memorybricksv2UITests.xctest */;
+			productReference = 5B68F1E72C9560EC006FA81F /* memorybricksUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -220,7 +220,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5B68F1C82C9560EA006FA81F /* Build configuration list for PBXProject "memorybricksv2" */;
+			buildConfigurationList = 5B68F1C82C9560EA006FA81F /* Build configuration list for PBXProject "memorybricks" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -233,9 +233,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5B68F1CC2C9560EA006FA81F /* memorybricksv2 */,
-				5B68F1DC2C9560EC006FA81F /* memorybricksv2Tests */,
-				5B68F1E62C9560EC006FA81F /* memorybricksv2UITests */,
+				5B68F1CC2C9560EA006FA81F /* memorybricks */,
+				5B68F1DC2C9560EC006FA81F /* memorybricksTests */,
+				5B68F1E62C9560EC006FA81F /* memorybricksUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -273,7 +273,7 @@
 			files = (
 				5B68F1D32C9560EA006FA81F /* ContentView.swift in Sources */,
 				5B68F1FC2C956171006FA81F /* CustomARView.swift in Sources */,
-				5B68F1D12C9560EA006FA81F /* memorybricksv2App.swift in Sources */,
+				5B68F1D12C9560EA006FA81F /* memorybricksApp.swift in Sources */,
 				5B68F1FE2C9562BE006FA81F /* CustomARViewRepresentable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,7 +282,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B68F1E22C9560EC006FA81F /* memorybricksv2Tests.swift in Sources */,
+				5B68F1E22C9560EC006FA81F /* memorybricksTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,8 +290,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B68F1EC2C9560EC006FA81F /* memorybricksv2UITests.swift in Sources */,
-				5B68F1EE2C9560EC006FA81F /* memorybricksv2UITestsLaunchTests.swift in Sources */,
+				5B68F1EC2C9560EC006FA81F /* memorybricksUITests.swift in Sources */,
+				5B68F1EE2C9560EC006FA81F /* memorybricksUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,12 +300,12 @@
 /* Begin PBXTargetDependency section */
 		5B68F1DF2C9560EC006FA81F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5B68F1CC2C9560EA006FA81F /* memorybricksv2 */;
+			target = 5B68F1CC2C9560EA006FA81F /* memorybricks */;
 			targetProxy = 5B68F1DE2C9560EC006FA81F /* PBXContainerItemProxy */;
 		};
 		5B68F1E92C9560EC006FA81F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5B68F1CC2C9560EA006FA81F /* memorybricksv2 */;
+			target = 5B68F1CC2C9560EA006FA81F /* memorybricks */;
 			targetProxy = 5B68F1E82C9560EC006FA81F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -506,7 +506,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/memorybricksv2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/memorybricksv2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/memorybricks.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/memorybricks";
 			};
 			name = Debug;
 		};
@@ -526,7 +526,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/memorybricksv2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/memorybricksv2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/memorybricks.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/memorybricks";
 			};
 			name = Release;
 		};
@@ -569,7 +569,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5B68F1C82C9560EA006FA81F /* Build configuration list for PBXProject "memorybricksv2" */ = {
+		5B68F1C82C9560EA006FA81F /* Build configuration list for PBXProject "memorybricks" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5B68F1EF2C9560EC006FA81F /* Debug */,
@@ -578,7 +578,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5B68F1F12C9560EC006FA81F /* Build configuration list for PBXNativeTarget "memorybricksv2" */ = {
+		5B68F1F12C9560EC006FA81F /* Build configuration list for PBXNativeTarget "memorybricks" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5B68F1F22C9560EC006FA81F /* Debug */,
@@ -587,7 +587,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5B68F1F42C9560EC006FA81F /* Build configuration list for PBXNativeTarget "memorybricksv2Tests" */ = {
+		5B68F1F42C9560EC006FA81F /* Build configuration list for PBXNativeTarget "memorybricksTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5B68F1F52C9560EC006FA81F /* Debug */,
@@ -596,7 +596,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5B68F1F72C9560EC006FA81F /* Build configuration list for PBXNativeTarget "memorybricksv2UITests" */ = {
+		5B68F1F72C9560EC006FA81F /* Build configuration list for PBXNativeTarget "memorybricksUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5B68F1F82C9560EC006FA81F /* Debug */,
